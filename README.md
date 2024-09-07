@@ -11,7 +11,7 @@ In this project, various machine learning algorithms were utilized, such as:
 - **Gradient Boosting**
 - **Support Vector Machines (SVM)**
 
-These models are combined with the **VotingClassifier** method to leverage the strengths of different algorithms, leading to improved classification performance. For text feature extraction, **TF-IDF** and **CountVectorizer** methods were employed.
+These models are combined with the **VotingClassifier** method to leverage the strengths of different algorithms, leading to improved classification performance. For text feature extraction, **TF-IDF** and **CountVectorizer** methods were employed. Additionally, **StandardScaler** is applied to normalize the features.
 
 Commented-out code fragments show the development stages of the project, from its initial to its final form.
 
@@ -27,3 +27,4 @@ The dataset for this project was specifically created for the **Turkish language
 - **Voting Classifier**: Utilizes the strengths of multiple models to improve overall accuracy.
 - **Text Feature Extraction**: Implements both TF-IDF and CountVectorizer for text representation.
 - **High Accuracy**: Achieved a classification accuracy of over 94% for Turkish language texts.
+- **Model Saving**: After training, users can choose to save the model for later use.
